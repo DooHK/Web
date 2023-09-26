@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    body{
+        background-color: rgb(242, 242, 242);
+        font-family: Arial;
+        text-align: center;
+        line-height: 20px;
+        padding:10px;
+        margin: 25px;
+        position: relative;
+        
+    }
+    h1{
+        font-size: 30px;
+        
+    }
+    .sign-in{
+        text-anchor: middle;
+        padding: 150px;
+       
+        
+    }
+    .form{
+        padding:12px;
+        width: 250px;
+    }
+    .submit{
+        height:60px;
+        width:250px;
+        background-color: #4958ff;
+        border-radius:13px;
+        border-color: #4958ff;
+        padding:3px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        color: white;
+    }
+    .remember{
+        margin-top: 10px;
+    }
+    
+</style>
+</head>
+
+
+<body>
+    <form class="sign-in">
+        <img class = "img" scr ="/docs/4.6/assets/brand/bootstrap-solid.svg" width="72" height="72">
+        <h1 class ="h1">Please sign in</h1>
+        <input type="email" id ='email' class="form" placeholder="Email address"><br>
+        <input type="password" id="Password" class="form" placeholder="Password" >
+        <div class="checkbox mb-3">
+            <label>
+            <input class="remember" type="checkbox" value="remember-me"> Remember me
+            </label>
+        </div>
+        <button class="submit" type="submit">Sign in</button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2017-2022</p>
+    </form>
+</body>
+
+</html>
